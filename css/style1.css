@@ -1,0 +1,116 @@
+* {
+    font-family: gooddog-new,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+  
+  #canvas {
+    width: 100%;
+    height: 100;
+    
+    padding-top: 0px;
+    margin-bottom: 6rem !important;
+  }
+  
+  .icon-list {
+    padding-left: 0;
+    list-style: none;
+  }
+  .icon-list li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: .25rem;
+  }
+  .icon-list li::before {
+    display: block;
+    flex-shrink: 0;
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: .5rem;
+    content: "";
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E") no-repeat center center / 100% auto;
+  }
+  
+  
+  body {
+    background: #A6D0E0;
+  }
+  
+  
+  
+  h1 {
+    text-transform: uppercase;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+    a:hover {
+      color: white;
+    }
+  
+  
+  
+  #announcement-bar {
+    background: #000000;
+    color: #F4D95E;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .display-1 {
+    font-size: 8.5rem;
+    margin-bottom: 4rem !important;
+  }
+  
+  .lead {
+    font-size: 1.75rem;
+  }
+  
+  .text-black {
+    color: rgb(3, 3, 3) !important;
+  }
+  
+  
+  
+  
+  .btn1 {
+    border: 4px solid transparent;
+    text-transform: uppercase;
+  }
+  
+  .btn-primary {
+    color: #000000;
+    background-color: #F4D95E;
+    border-color: #000000;
+  }
+
+  .btn:hover {
+    box-shadow: none;
+  }
+  
+  .btn-lg {
+    border-radius: 0;
+    padding: 1rem !important;
+  }
+  
+  
+  .nav-link {
+    color: #000000;
+  }
+  
+  #team img {
+    margin-bottom: 2rem;
+  }
+  
+  
+  
+  

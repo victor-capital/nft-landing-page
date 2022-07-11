@@ -1,18 +1,27 @@
 /* FONTS */
 
+
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
   --font-primary: 'Poppins', sans-serif;
+  --font-pump: 'Caveat';
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #00163f;
-  --font-color: #ffffff;
+  --bg-pump: #18f0df;
+  --font-color: #000;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #F4D95E;
   --header-shadow: #000 0px 0px 5px;
+  --btn-pomp: black;
 }
 
 * {
@@ -22,7 +31,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--bg-pump);
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -61,20 +70,26 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
-  color: var(--accent-color);
+  background-color:var(--accent-color);
+  
+  color: var(--btn-pomp);
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  box-shadow: 4px 4px 0 0 black;
+  
   cursor: pointer;
   position: relative;
   text-decoration: none;
   outline: none;
 }
+
+
+
+
 .btn:hover {
   box-shadow: none;
 }
@@ -82,7 +97,7 @@ header .container {
 .wallet-btn {
   border-radius: 5rem;
   margin-left: 2rem;
-  border-color: transparent;
+  border-color: black;
 }
 
 .hero-btn {
@@ -149,8 +164,9 @@ section {
 }
 
 .countdown p {
-  font-size: 1.1rem;
-  font-family: var(--font-secondary);
+  font-size: 3.1rem;
+  font-weight: 400;
+  font-family: var(--font-pump);
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -174,10 +190,12 @@ section {
     max-width: 8rem;
   }
   .countdown h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .countdown p {
-    font-size: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+
   }
 }
  
